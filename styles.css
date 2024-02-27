@@ -67,3 +67,7 @@ img {
 .buttonBanner ul li:last-child {
     border-right: none; 
 }
+
+h4{
+    border-right:0;
+}
