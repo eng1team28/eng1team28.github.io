@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: #fafff4;
 }
 
 
@@ -92,4 +93,10 @@ p {
     margin: 15px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
+}
+
+.pdfviewer { 
+    margin: 10px;
+    padding: 15px;
+    vertical-align: center;
 }
