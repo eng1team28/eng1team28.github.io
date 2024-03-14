@@ -1,4 +1,10 @@
 /* styles.css */
+/*
+COLOURS !!!
+black header: 001114
+pink header: e0508e
+green header: 7adc248a
+*/
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
@@ -28,7 +34,7 @@ img {
 
 
 .button-banner {
-    background-color: #e0508e; 
+    background-color: #001114e5; 
     text-align: center;
     white-space: nowrap;
     height: 5%;
@@ -58,9 +64,9 @@ img {
 
 
 .button-banner ul li:hover {
-    background-color: #e12676;
+    background-color: #001114;
     color: #ffffff;
-    box-shadow: -5px 0px #e12676;
+    box-shadow: -5px 0px #001114;
 }
 
 .button-banner ul li a:hover {
@@ -72,11 +78,11 @@ img {
 }
 
 .header-container { 
-    background-color: #7adc248a;
+    background-color: #e0508e;
 }
 
 h2 { 
-    color: #000;
+    color: #ffffff;
     text-align: left;
     margin: 20px;
     padding-top: 5px;
@@ -104,7 +110,7 @@ p {
 
 .download-buttons ul li a {
     padding: 10px 20px;
-    background-color: #7adc248a;
+    background-color: #e0508e96;
     color: #000;
     margin: 0 50px;
     border-radius: 5px;
