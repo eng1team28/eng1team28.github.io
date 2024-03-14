@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background: #fafff4;
@@ -17,7 +17,6 @@ header {
 h1 {
     display: inline-block;
     width: fit-content;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 img {
@@ -28,24 +27,19 @@ img {
 }
 
 
-.buttonBanner {
+.button-banner {
     background-color: #e0508e; 
     text-align: center;
     white-space: nowrap;
     height: 5%;
-
-
-
 }
 
-.buttonBanner ul {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    list-style-type: none;
+.button-banner ul {
     padding: 0;
     margin: 0;
 }
 
-.buttonBanner ul li {
+.button-banner ul li {
     display: inline-block;
     vertical-align: middle;
     max-width: 15%;
@@ -53,7 +47,7 @@ img {
     padding:15px;
 }
 
-.buttonBanner ul li a {
+.button-banner ul li a {
     white-space: wrap;
     display: inline-block;
     padding:2.3em;
@@ -63,40 +57,65 @@ img {
 }
 
 
-.buttonBanner ul li:hover {
+.button-banner ul li:hover {
     background-color: #e12676;
     color: #ffffff;
     box-shadow: -5px 0px #e12676;
 }
 
-.buttonBanner ul li a:hover {
+.button-banner ul li a:hover {
     color: #ffffff;
 }
 
-.buttonBanner ul li:last-child {
+.button-banner ul li:last-child {
     border-right: none; 
 }
 
-.header-container{ 
-    background-color: #90e628; 
+.header-container { 
+    background-color: #7adc248a;
 }
 
 h2 { 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #fff;
-    padding: 7px;
+    color: #000;
     text-align: left;
-    margin: 15px;
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 p { 
-    margin: 15px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-
+    margin-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
 }
+
+.download-buttons {
+    text-align: center;
+}
+
+.download-buttons ul {
+    padding: 0;
+    margin: 0;
+}
+
+.download-buttons ul li {
+    display: inline-block;
+}
+
+.download-buttons ul li a {
+    padding: 10px 20px;
+    background-color: #7adc248a;
+    color: #000;
+    margin: 0 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
 
 .pdfviewer { 
     margin: 10px;
     padding: 15px;
     vertical-align: center;
 }
+
