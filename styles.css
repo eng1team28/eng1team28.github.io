@@ -130,9 +130,9 @@ p {
 }
 
 
-
-.pdf-viewer { 
+.pdf-viewer {
     text-align: center;
-    height: 100%;
+    vertical-align: center;
+    margin-bottom: 50px;
 }
 
