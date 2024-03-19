@@ -138,7 +138,7 @@ p {
 
 .gantt-charts { 
     width: 75%;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 20px;
     display: block;
 }
@@ -147,4 +147,15 @@ p {
     color:#00000089;
     text-align: center;
     font-style: italic;
+    margin-bottom: 80px;
+}
+
+
+.repo-link p { 
+    display: inline;
+    margin-left: 30px
+}
+
+.repo-link a { 
+    display: inline;
 }
